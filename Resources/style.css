@@ -1,0 +1,84 @@
+/*
+ First External CSS Stylesheet
+ */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  background: rgba(51, 51, 51, 0.315);
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  color: rgba(238, 238, 238, 0.322);
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Selecting elements by class */
+.container {
+  width: 120px;
+  margin: 0 auto;
+}
+
+/* Selecting elements by ID */
+.row {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  color: darkblue;
+  text-align: left;
+}
+
+.box{
+  width: 50%;
+}
+
+/* Selecting elements by ID */
+#figure {
+  position: relative;
+}
+
+#bio-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
